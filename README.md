@@ -5,10 +5,10 @@ Grade XI G
 HTML LAB CLASS
 
 Tags:
-    <html>
-    <head>
-    <body>
-    <pre>
-    <h1>
+    <html> </html>
+    <head> </head>
+    <body> </body>
+    <pre> </pre>
+    <h1> </h1>
     <hr>
-    
+    <a> </a>
