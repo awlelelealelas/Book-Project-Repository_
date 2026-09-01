@@ -1,9 +1,216 @@
 <html>
     <head>
-            <h1> Chatper 6 </h1>
+             <h1> Chatper 6 </h1>
+            <title>6.Data Structures and Algorithms</title>
     </head>
     
-    <body>
-           <h1> <a href="https://awlelelealelas.github.io/Book-Project-Repository_/Table%20Of%20Content.html"> Back to Table Of Content </a></h1>
+    <body bgcolor="#D8F8B7" link="purple">
+            <h5> <a href="https://awlelelealelas.github.io/Book-Project-Repository_/Table%20Of%20Content.html"> Go Back to Table Of Content </a></h5>
+<font face ="times new roman" size="4">
+
+<h2>6.1 Introduction: Web Development</h2>
+
+<p>Web development is the process of creating and maintaining websites and web applications. It involves designing web pages, writing code, managing content, and making websites available through the internet. HTML, CSS, and JavaScript are commonly used in web development.</p>
+
+<h2>6.2 Web Browsers and Search Engines</h2>
+
+<p><b>Web Browser</b> - A web browser is software used to access and view websites on the internet. It interprets web pages and displays their content to users. Examples include Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari.</p>
+
+<p><b>Search Engine</b> - A search engine is an online service used to find information on the internet. It searches its database for pages related to the user's query and displays relevant results. Examples include Google, Bing, and Yahoo.</p>
+
+<h2>6.3 Overview of Various Internet and Web Technologies</h2>
+
+<p>Internet and web technologies are tools and standards used to communicate, share information, and create websites and online services. Some important technologies include HTML for webpage structure, CSS for styling, JavaScript for interactivity, HTTP/HTTPS for communication, and URLs for identifying web resources.</p>
+
+<h2>6.4 Content Management System (CMS)</h2>
+
+<p>A Content Management System (CMS) is software that allows users to create, edit, organize, and publish website content without requiring extensive programming knowledge. It is commonly used for blogs, school websites, news sites, and business websites.</p>
+
+<p>Examples of CMS include WordPress, Joomla, and Drupal.</p>
+
+<h2>6.4 HTML: The Language of the Web</h2>
+
+<p>HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages. It uses tags and elements to define headings, paragraphs, images, links, tables, forms, and other webpage content.</p>
+
+<h3>6.4.1 Objectives</h3>
+
+<p>The main objective of HTML is to provide a standard way of structuring and presenting content on web pages. It helps browsers understand how different parts of a webpage should be displayed.</p>
+
+<h3>6.4.2 Structure of HTML</h3>
+
+<p>An HTML document normally contains the <b>HTML</b>, <b>HEAD</b>, and <b>BODY</b> sections. The HEAD contains information about the webpage, while the BODY contains the content displayed on the webpage.</p>
+
+<pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Content goes here
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h3>6.4.3 Publishing and Hosting</h3>
+
+<p><b>Publishing</b> a website means making its web pages available to users on the internet. <b>Web hosting</b> is a service that provides storage and resources for website files so that they can be accessed online.</p>
+
+<h3>6.4.4 HTML Tags vs. Attributes</h3>
+
+<p><b>HTML Tags</b> are special keywords enclosed in angle brackets that define the structure or meaning of webpage content. Examples include &lt;p&gt;, &lt;h1&gt;, and &lt;table&gt;.</p>
+
+<p><b>Attributes</b> provide additional information about an HTML element. They are normally written inside the opening tag. For example, <b>align</b> can specify the alignment of an element.</p>
+
+<h3>6.4.5 Basic Tags of HTML</h3>
+
+<ul>
+<li><b>&lt;HTML&gt;</b> - Defines the beginning and end of an HTML document.</li>
+<li><b>&lt;HEAD&gt;</b> - Contains information about the webpage that is not normally displayed as page content.</li>
+<li><b>&lt;TITLE&gt;</b> - Defines the title displayed on the browser tab.</li>
+<li><b>&lt;BODY&gt;</b> - Contains the main visible content of the webpage.</li>
+</ul>
+
+<p>The BODY section can be used to set properties such as text color, background color, and background image. Older HTML versions also supported background sound.</p>
+
+<h3>6.4.6 Heading Tag (H1 to H6) and ALIGN Attribute</h3>
+
+<p>Heading tags are used to create headings of different sizes. HTML provides six heading levels from <b>&lt;H1&gt;</b> to <b>&lt;H6&gt;</b>, where H1 is the largest and most important heading and H6 is the smallest.</p>
+
+<p>The <b>ALIGN</b> attribute was traditionally used to align content such as headings to the left, center, right, or justify positions.</p>
+
+<h3>6.4.7 FONT Tag and Attributes</h3>
+
+<p>The <b>&lt;FONT&gt;</b> tag was used in older HTML to change the appearance of text. Its attributes included <b>SIZE</b>, <b>COLOR</b>, and other formatting options. Font size could be specified from 1 to 7.</p>
+
+<ul>
+<li><b>BASEFONT</b> - Used to specify the default font size.</li>
+<li><b>SMALL</b> - Displays text smaller than normal.</li>
+<li><b>BIG</b> - Displays text larger than normal.</li>
+<li><b>COLOR</b> - Specifies the color of text.</li>
+</ul>
+
+<h3>6.4.8 Paragraph Formatting (P)</h3>
+
+<p>The <b>&lt;P&gt;</b> tag is used to create a paragraph in HTML. It automatically separates the paragraph from surrounding content and makes text easier to read.</p>
+
+<h3>6.4.9 Break Line BR</h3>
+
+<p>The <b>&lt;BR&gt;</b> tag is used to insert a line break within text. It moves the following content to the next line without creating a new paragraph.</p>
+
+<h3>6.4.10 Comment in HTML</h3>
+
+<p>HTML comments are notes written inside the code that are ignored by the browser. They are useful for explaining code or leaving notes for developers.</p>
+
+<pre>
+&lt;!-- This is an HTML comment --&gt;
+</pre>
+
+<h3>6.4.11 Formatting Text</h3>
+
+<ul>
+<li><b>&lt;B&gt;</b> - Makes text bold.</li>
+<li><b>&lt;I&gt;</b> - Makes text italic.</li>
+<li><b>&lt;U&gt;</b> - Underlines text.</li>
+<li><b>&lt;MARK&gt;</b> - Highlights text.</li>
+<li><b>&lt;SUP&gt;</b> - Displays text as superscript.</li>
+<li><b>&lt;SUB&gt;</b> - Displays text as subscript.</li>
+<li><b>&lt;EM&gt;</b> - Gives emphasis to text, usually displayed in italic.</li>
+<li><b>&lt;BLOCKQUOTE&gt;</b> - Displays a section as a quotation.</li>
+<li><b>&lt;PRE&gt;</b> - Displays preformatted text while preserving spaces and line breaks.</li>
+</ul>
+
+<h3>6.4.12 Ordered List - OL</h3>
+
+<p>An ordered list displays items in a particular sequence, usually using numbers or letters. The <b>&lt;OL&gt;</b> tag creates the list and <b>&lt;LI&gt;</b> defines each item.</p>
+
+<p>The <b>TYPE</b> attribute can use values such as 1, I, A, or a. The <b>START</b> attribute specifies the starting number or letter, while <b>VALUE</b> can specify the value of an individual list item.</p>
+
+<h3>6.4.13 Unordered List - UL</h3>
+
+<p>An unordered list displays items using bullet symbols rather than a sequence. The <b>&lt;UL&gt;</b> tag creates the list and <b>&lt;LI&gt;</b> defines each item.</p>
+
+<p>Common bullet types include <b>disc</b>, <b>circle</b>, and <b>square</b>. The <b>&lt;DL&gt;</b>, <b>&lt;DT&gt;</b>, and <b>&lt;DD&gt;</b> tags are used for description lists, terms, and their descriptions.</p>
+
+<h3>6.4.14 ADDRESS Tag and Creating Links</h3>
+
+<p>The <b>&lt;ADDRESS&gt;</b> tag is used to provide contact or author information related to a webpage.</p>
+
+<p>Links allow users to move from one webpage or resource to another. The <b>&lt;A&gt;</b> (Anchor) tag is used to create hyperlinks in HTML.</p>
+
+<ul>
+<li><b>Link to another HTML document</b> - Connects the current webpage to another HTML page.</li>
+<li><b>Link within the same document</b> - Moves the user to another section of the current webpage.</li>
+<li><b>Link to another place in another document</b> - Opens a specific section of another webpage.</li>
+<li><b>Hyperlink</b> - A clickable text or object that takes the user to another location or resource.</li>
+</ul>
+
+<h3>6.4.15 Tables</h3>
+
+<p>HTML tables are used to arrange information in rows and columns. The <b>&lt;TABLE&gt;</b> tag creates a table, <b>&lt;TR&gt;</b> creates a row, <b>&lt;TH&gt;</b> creates a heading cell, and <b>&lt;TD&gt;</b> creates a normal data cell.</p>
+
+<h3>6.4.16 Forms</h3>
+
+<p>HTML forms are used to collect information from users. Forms can contain different input elements such as textboxes, radio buttons, checkboxes, text areas, and buttons.</p>
+
+<ul>
+<li><b>Textbox</b> - Allows the user to enter short text.</li>
+<li><b>Radio Button</b> - Allows the user to select one option from a group.</li>
+<li><b>Checkbox</b> - Allows the user to select one or more options.</li>
+<li><b>Text Area</b> - Allows the user to enter larger amounts of text.</li>
+<li><b>Button</b> - Performs an action such as submitting or resetting a form.</li>
+</ul>
+
+<h3>6.4.17 Introduction to HTML5 Elements</h3>
+
+<p>HTML5 introduced several elements for handling multimedia and other modern web content without requiring additional plugins.</p>
+
+<ul>
+<li><b>&lt;AUDIO&gt;</b> - Used to add audio content to a webpage.</li>
+<li><b>&lt;VIDEO&gt;</b> - Used to display video content.</li>
+<li><b>&lt;SOURCE&gt;</b> - Specifies different media sources.</li>
+<li><b>&lt;TRACK&gt;</b> - Provides text tracks such as subtitles or captions.</li>
+<li><b>&lt;EMBED&gt;</b> - Embeds external content into a webpage.</li>
+</ul>
+
+<h3>6.4.18 HTML5 Graphics using Canvas and SVG</h3>
+
+<p><b>Canvas</b> provides a drawing area where graphics can be created using scripts such as JavaScript. It can be used for drawings, animations, games, and charts.</p>
+
+<p><b>SVG (Scalable Vector Graphics)</b> is an XML-based format used to create two-dimensional vector graphics. SVG graphics can be resized without losing their quality.</p>
+
+<h3>6.4.19 Concept of Domain Name and Web Hosting</h3>
+
+<p><b>Domain Name</b> is the human-readable address used to access a website on the internet, such as example.com. It is easier to remember than a numerical IP address.</p>
+
+<p><b>Web Hosting</b> is a service that stores website files on a server and makes them accessible through the internet.</p>
+
+
+<h2>6.5 Cascading Style Sheets</h2>
+
+<p>Cascading Style Sheets (CSS) is a stylesheet language used to control the appearance and layout of HTML webpages. It can change colors, fonts, spacing, borders, sizes, and the overall design of a webpage.</p>
+
+<h3>6.5.1 Introduction to Cascading Style Sheet (CSS)</h3>
+
+<p>CSS separates the presentation of a webpage from its HTML structure. It allows developers to apply consistent styles to multiple elements and webpages, making websites easier to design and maintain.</p>
+
+<h3>6.5.2 Inline CSS</h3>
+
+<p>Inline CSS is written directly inside an HTML element using the <b>style</b> attribute. It is mainly used when a style needs to be applied to a specific individual element.</p>
+
+<pre>
+&lt;p style="color: blue;"&gt;Hello&lt;/p&gt;
+</pre>
+
+<h3>6.5.3 Embedded CSS</h3>
+
+<p>Embedded CSS is written inside the <b>&lt;style&gt;</b> tag, usually within the <b>&lt;head&gt;</b> section of an HTML document. It is useful when styles are intended for a single webpage.</p>
+
+<h3>6.5.4 External CSS</h3>
+
+<p>External CSS is written in a separate <b>.css</b> file and linked to an HTML document. It is useful for applying the same styles to multiple webpages and makes website maintenance easier.</p>
+
+
+<p>Go to the next chapter: <a href="Chapter 7.html">7.Introduction to Web Development</a>  </p>
+</font>
     </body>
 </html>
