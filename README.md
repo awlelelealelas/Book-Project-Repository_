@@ -5,27 +5,17 @@ Grade XI G
 HTML LAB CLASS
 
 Tags:
-<html> </html>
-<head> </head>
-<title> </title>
-<body> </body>
-<h1> </h1>
-<h2> </h2>
-<p> </p>
-<pre> </pre>
-<ul> </ul>
-<ol> </ol>
-<li> </li>
-<dl> </dl>
-<dt> </dt>
-<dd> </dd>
-<b> </b>
-<i> </i>
-<u> </u>
-<font> </font>
-<a> </a>
-<table> </table>
-<tr> </tr>
-<th> </th>
-<td> </td>
-<br>
+
+    <html> </html>
+    <head> </head>
+    <body> </body>
+    <pre> </pre>
+    <h1> </h1>
+    <h2> </h2>
+    <b> </b>
+    <p> </p>
+    <ul> </ul>
+    <ol> </ol>
+    <li> </li>
+    <hr>
+    <a> </a>
